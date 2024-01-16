@@ -1,7 +1,12 @@
 <nav class="top-nav">
-  <a class="nav-item" href='/'>Home</a>
-  | <a class="nav-item" href='/tags'>Tags</a>
-  | <a class="nav-item" href='/about'>About</a>
-  | <a class="nav-item" href="/feed.xml">RSS</a>
-  {% if site.javascript_enabled %}| <a class="nav-item dark-light-switch" href="#"></a>{% endif %}
+  <div class="nav-box-img">
+    <img src="/assets/native-blue.png" alt="use the force">
+  </div>
+  <div class="nav-box">
+    <h2>{{ site.name }}</h2>
+    <a class="nav-item" href='/'>Home</a>
+    &middot <a class="nav-item" href='/tags'>Tags</a>
+    &middot <a class="nav-item" href='/about'>About</a>
+    &middot <a class="nav-item" href="https://github.com/banaboi" target="_blank">Github</a>
+  </div>
 </nav>

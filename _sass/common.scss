@@ -15,6 +15,7 @@ body {
   flex-direction: column;
   max-width: 700px;
   margin: 8px auto;
+  background-color: white !important;
 }
 
 .container {
@@ -37,11 +38,17 @@ img {
 
 code, pre {
   font-family: monospace;
-  background-color: #eee;
+  background-color: #eee ;
   letter-spacing: 1px;
   font-size: 0.9rem;
   padding: 2.5px;
   overflow-x: auto;
+}
+
+.language-plaintext {
+  color: dodgerblue !important;
+  font-style: bold;
+  background: none !important;
 }
 
 .highlight {
@@ -81,12 +88,13 @@ code, pre {
 }
 
 a {
-  color: #333;
+  color: dodgerblue !important;
+  transition: all 0.3s ease !important;
+  text-decoration: none !important;
 }
-
 a:hover {
-  background-color: #333;
-  color: #eee;
+  color: black !important;
+  background: none !important;
 }
 
 .post-date {
@@ -230,11 +238,35 @@ hr.stylish {
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0));
   margin: 5px 0;
+  display: none;
+}
+
+hr.stylish-footer {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0));
+  margin: 5px 0;
 }
 
 .nav-item {
   border: none;
 }
+
+.top-nav {
+  text-align: right !important;
+
+  .nav-box {
+    display: inline-block;
+  }
+  .nav-box-img {
+    float: left;
+  }
+  img {
+    height: 4.5rem;
+  }
+}
+
+
 
 button {
   padding: 5px 10px;
