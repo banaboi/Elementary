@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Karla', sans-serif !important;
 }
 
 html, body {
@@ -18,6 +17,7 @@ body {
   max-width: 700px;
   margin: 8px auto;
   background-color: white !important;
+  font-family: 'Karla', sans-serif !important;
 }
 
 .container {
@@ -252,6 +252,8 @@ hr.stylish-footer {
 
 .nav-item {
   border: none;
+  font-size: 1.5rem;
+  padding-right: .5rem;
 }
 
 .top-nav {
